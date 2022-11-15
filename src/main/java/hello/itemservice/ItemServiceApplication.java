@@ -20,12 +20,12 @@ public class ItemServiceApplication {
 	//파일의 위치는 /resources/messages.properties 에 두면 된다.
 	//여러 파일을 한번에 지정할 수 있다. 여기서는 messages , errors 둘을 지정했다.
 	//defaultEncoding : 인코딩 정보를 지정한다. utf-8 을 사용하면 된다
-	@Bean
-	public MessageSource messageSource() {
-		ResourceBundleMessageSource messageSource = new
-				ResourceBundleMessageSource();
-		messageSource.setBasenames("messages", "errors");
-		messageSource.setDefaultEncoding("utf-8");
-		return messageSource;
-	}
+//	@Bean
+//	public MessageSource messageSource() {
+//		ResourceBundleMessageSource messageSource = new
+//				ResourceBundleMessageSource();
+//		messageSource.setBasenames("messages", "errors");
+//		messageSource.setDefaultEncoding("utf-8");
+//		return messageSource;
+//	}
 }
